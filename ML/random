@@ -1,0 +1,8 @@
+import random
+num = [2, 3, 4, 12, 19]
+weights = [1, 1, 1, 1, 1]
+
+# 가중치를 고려하여 랜덤하게 숫자 선택
+choice = random.choices(num, weights)[0]
+
+print("Choice Number:", choice)
